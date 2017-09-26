@@ -1,6 +1,6 @@
 FROM amazonlinux:latest
 
-ENV NODE_VERSION 6.11.3
+ENV NODE_VERSION 8.5.0
 
 RUN yum update -y \
       && yum install -y gcc44 gcc-c++ libgcc44 \
